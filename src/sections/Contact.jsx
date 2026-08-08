@@ -9,7 +9,7 @@ export default function Contact() {
       <div className="container">
         <SectionHeading
           title="Contacto"
-          subtitle="¿Interesado en colaborar, trabajo de desarrollo o proyectos técnicos? También estoy disponible para trabajo freelance a través de Upwork."
+          subtitle="¿Interesado en colaborar, trabajo de desarrollo o proyectos técnicos?"
         />
 
         <div className={styles.socials}>
