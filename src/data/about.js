@@ -4,21 +4,29 @@ export const about = {
   photo:
     "https://lh3.googleusercontent.com/a/ACg8ocIWtXiRTK72qA2G2hJw5jTsMzLiG7-4l_Jx6uSc-ak8aPNix34=s360-c-no",
   intro:
-    "Soy Francisco Joel Cruz Fernández, estudiante de Ingeniería en Ciencias de la Computación, enfocado en desarrollo de software, sistemas embebidos, robótica y aplicaciones web escalables. Trabajo en proyectos de backend, frontend, redes e integración de hardware.",
+    "Soy Francisco Joel Cruz Fernández, estudiante de Ingeniería en Ciencias de la Computación, enfocado en desarrollo de software, sistemas embebidos, robótica y aplicaciones web escalables. Trabajo en proyectos de backend, frontend, redes e integración de hardware, y estoy abierto a trabajo remoto, freelance o por contrato.",
   bio:
-    "Disfruto construir sistemas del mundo real que combinan software, hardware y automatización. Mi experiencia va desde plataformas web en Laravel y administración de bases de datos, hasta robótica, microcontroladores, infraestructura de redes y sistemas embebidos.",
+    "Disfruto construir sistemas del mundo real que combinan software, hardware y automatización. Mi experiencia va desde plataformas web en Laravel y administración de bases de datos, hasta robótica, microcontroladores, infraestructura de redes, sistemas embebidos y contribuciones a proyectos de código abierto.",
   cards: [
     {
       title: "Educación",
-      body: "Estudiante de Ingeniería en Ciencias de la Computación en la Universidad Católica de Honduras (UNICAH). También completé estudios de programación en Python, fundamentos de Java y bases de datos MySQL a través del INFOP.",
+      body: "Estudiante de Ingeniería en Ciencias de la Computación en la Universidad Católica de Honduras (UNICAH), desde 2024.\nBachillerato en The Lighthouse Christian Bilingual School, graduado en 2024.",
+    },
+    {
+      title: "Cursos y Certificaciones",
+      body: "INFOP: Programación en Python, Introducción a Java, Bases de Datos MySQL.\nUdemy: 100 Days of Code - The Complete Python Pro Bootcamp (en curso).",
     },
     {
       title: "Idiomas",
-      body: "Español - Nativo/Bilingüe\nInglés - Nativo/Bilingüe\nAlemán - Elemental",
+      body: "Español - Nativo\nInglés - Bilingüe / Dominio profesional completo\nAlemán - Elemental",
     },
     {
       title: "Reconocimientos",
-      body: "Miembro de sociedad de honor, ganador de un premio regional en olimpiada de matemáticas, y competidor en feria de ciencias con múltiples proyectos de robótica y software.",
+      body: "2do lugar - Excelencia Académica, Ingeniería en Ciencias de la Computación, Campus San Isidro - Índice académico 96.29% (2024-2025).\n2do lugar - Olimpiada Regional de Matemáticas ANEPBH, Pre-Cálculo (2024).\nMiembro de la Sociedad de Honor (2022-2024).",
+    },
+    {
+      title: "Prácticas de Desarrollo",
+      body: "Control de versiones, Git Branching, Code Review y documentación técnica en todos mis proyectos y contribuciones de código abierto.",
     },
   ],
   codeSnippet: [

@@ -14,4 +14,9 @@ export const experience = [
     description:
       "Construcción de proyectos con Arduino, ESP32 y microcontroladores PIC: vehículos RC, sistemas inteligentes, automatización robótica y desarrollo basado en microcontroladores.",
   },
+  {
+    title: "Contribuciones a Código Abierto",
+    description:
+      "Colaboré con desarrollo de código y funcionalidades para proyectos de código abierto ya establecidos, a través de pull requests en GitHub, trabajando con bases de código existentes y flujos de trabajo basados en issues.",
+  },
 ];

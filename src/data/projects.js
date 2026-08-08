@@ -126,14 +126,26 @@ export const projects = [
   },
   {
     slug: "asistente-ia-local",
-    title: "Asistente de IA Local",
-    summary: "Asistente de automatización multiplataforma con integración de un chatbot local basado en LLMs ligeros.",
+    title: "Asistente de IA de Escritorio",
+    summary: "Asistente de escritorio para Windows con reconocimiento de voz, texto a voz e IA conversacional.",
     description:
-      "Asistente de automatización multiplataforma capaz de realizar búsquedas web, controlar reproducción multimedia, abrir aplicaciones e integrar un chatbot local usando modelos de lenguaje (LLMs) ligeros.",
+      "Asistente de escritorio para Windows que integra reconocimiento de voz, conversión de texto a voz, inteligencia artificial conversacional y automatización del sistema. Incluye búsquedas web, apertura de aplicaciones, control de reproducción multimedia, recordatorios, traducción, cálculos y consulta de información del sistema, usando modelos de lenguaje (LLMs) ligeros ejecutados de forma local.",
     contributionType: "Individual",
-    contribution: "Proyecto personal, no académico - desarrollo completo del asistente y su integración con LLMs locales.",
-    tech: ["Python", "LLMs locales", "Automatización"],
+    contribution: "Proyecto personal, no académico - desarrollo completo del asistente: reconocimiento de voz, síntesis de voz, integración de modelos de IA conversacional y automatización del sistema.",
+    tech: ["Python", "SpeechRecognition", "pyttsx3", "Hugging Face Transformers", "PyTorch", "Automatización"],
     context: "Proyecto personal (no académico)",
+    links: { github: "https://github.com/Fran-cruz" },
+  },
+  {
+    slug: "sistemas-gestion-bases-datos",
+    title: "Sistemas de Gestión de Bases de Datos",
+    summary: "Proyectos de bases de datos relacionales con esquemas multi-tabla y conjuntos de datos interconectados.",
+    description:
+      "Diseño de proyectos de bases de datos relacionales con esquemas de múltiples tablas y datos interconectados. Aplicación de consultas SQL, procedimientos almacenados, normalización, manipulación de datos y diseño de bases de datos relacionales.",
+    contributionType: "Individual",
+    contribution: "Proyecto personal / académico - diseño, normalización y administración completos de los esquemas de base de datos.",
+    tech: ["MySQL", "SQL", "MySQL Workbench", "phpMyAdmin"],
+    context: "Proyecto personal / académico",
     links: { github: "https://github.com/Fran-cruz" },
   },
 ];
