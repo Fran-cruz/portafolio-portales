@@ -3,9 +3,8 @@ import { Link } from "react-router-dom";
 import styles from "./Header.module.css";
 
 const NAV_LINKS = [
-  { label: "Sobre mí", to: "/#about" },
-  { label: "Habilidades", to: "/#skills" },
   { label: "Proyectos", to: "/proyectos" },
+  { label: "Habilidades", to: "/#skills" },
   { label: "Experiencia", to: "/#experience" },
   { label: "Contacto", to: "/#contact" },
 ];
