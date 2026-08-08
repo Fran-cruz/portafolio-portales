@@ -1,0 +1,67 @@
+.section {
+  padding: 4rem 0 6rem;
+  min-height: 70vh;
+}
+
+.back {
+  color: var(--muted);
+  display: inline-block;
+  margin-bottom: 2rem;
+  transition: 0.3s;
+}
+
+.back:hover {
+  color: var(--accent);
+}
+
+.badge {
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--accent-2);
+}
+
+.title {
+  font-size: clamp(2rem, 5vw, 3rem);
+  margin: 0.5rem 0;
+}
+
+.context {
+  color: var(--accent);
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.description {
+  color: var(--muted);
+  max-width: 800px;
+  font-size: 1.05rem;
+  margin-bottom: 2.5rem;
+}
+
+.block {
+  margin-bottom: 2.5rem;
+}
+
+.block h2 {
+  margin-bottom: 0.75rem;
+}
+
+.block p {
+  color: var(--muted);
+  max-width: 800px;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.actions {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 2.5rem;
+}
