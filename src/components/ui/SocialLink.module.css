@@ -1,0 +1,15 @@
+.link {
+  background: var(--card);
+  border: 1px solid var(--border);
+  backdrop-filter: blur(10px);
+  padding: 1rem 1.3rem;
+  border-radius: 14px;
+  transition: 0.3s ease;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.link:hover {
+  transform: translateY(-5px);
+  border-color: rgba(56, 189, 248, 0.3);
+}

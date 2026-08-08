@@ -1,0 +1,23 @@
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  padding: 2rem;
+  transition: 0.3s ease;
+  height: 100%;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  border-color: rgba(56, 189, 248, 0.3);
+}
+
+.title {
+  margin-bottom: 1rem;
+}
+
+.body {
+  color: var(--muted);
+  white-space: pre-line;
+}
