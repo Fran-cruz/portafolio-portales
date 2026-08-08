@@ -5,5 +5,13 @@ dist-ssr
 .vite
 .idea
 _source_temp
+
+# Logs
+logs
+*.log
 npm-debug.log*
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
 .DS_Store
