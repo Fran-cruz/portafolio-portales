@@ -10,7 +10,7 @@ export default function Hero() {
           <p className={styles.eyebrow}>{about.role}</p>
 
           <h1 className={styles.heading}>
-            Construyo sistemas que <span>realmente resuelven problemas</span>
+            Sistemas que <span>Realmente Resuelven Problemas</span>
           </h1>
 
           <img className={styles.photo} src={about.photo} alt={`Foto de perfil de ${about.fullName}`} />
@@ -21,7 +21,7 @@ export default function Hero() {
             <Button href="https://github.com/Fran-cruz" target="_blank" variant="primary">
               GitHub
             </Button>
-            <Button to="/#projects" variant="secondary">
+            <Button to="/proyectos" variant="secondary">
               Mis Proyectos
             </Button>
           </div>

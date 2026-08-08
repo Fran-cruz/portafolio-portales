@@ -5,7 +5,7 @@ export const experience = [
       "Participé en una feria universitaria de gran escala, con asistencia de cientos de estudiantes, presentando proyectos de robótica, infraestructura de redes, fusión de fibra óptica e ingeniería de software.",
   },
   {
-    title: "Trabajo Freelance — Upwork",
+    title: "Trabajo Freelance - Upwork",
     description:
       "Desarrollo freelance de sistemas basados en Laravel: gestión de bases de datos, organización de flujos de trabajo y arquitectura backend escalable para distintos clientes a través de Upwork.",
   },

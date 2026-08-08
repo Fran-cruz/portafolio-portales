@@ -14,7 +14,7 @@ export const about = {
     },
     {
       title: "Idiomas",
-      body: "Español — Nativo/Bilingüe\nInglés — Nativo/Bilingüe\nAlemán — Elemental",
+      body: "Español - Nativo/Bilingüe\nInglés - Nativo/Bilingüe\nAlemán - Elemental",
     },
     {
       title: "Reconocimientos",

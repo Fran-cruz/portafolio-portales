@@ -3,11 +3,11 @@ import { Link } from "react-router-dom";
 import styles from "./Header.module.css";
 
 const NAV_LINKS = [
-  { label: "Sobre mí", hash: "#about" },
-  { label: "Habilidades", hash: "#skills" },
-  { label: "Proyectos", hash: "#projects" },
-  { label: "Experiencia", hash: "#experience" },
-  { label: "Contacto", hash: "#contact" },
+  { label: "Sobre mí", to: "/#about" },
+  { label: "Habilidades", to: "/#skills" },
+  { label: "Proyectos", to: "/proyectos" },
+  { label: "Experiencia", to: "/#experience" },
+  { label: "Contacto", to: "/#contact" },
 ];
 
 export default function Header() {
@@ -33,7 +33,7 @@ export default function Header() {
 
         <nav className={`${styles.links} ${open ? styles.linksOpen : ""}`}>
           {NAV_LINKS.map((link) => (
-            <Link key={link.hash} to={`/${link.hash}`} onClick={() => setOpen(false)}>
+            <Link key={link.to} to={link.to} onClick={() => setOpen(false)}>
               {link.label}
             </Link>
           ))}

@@ -15,7 +15,7 @@ export default function ProjectDetailPage() {
   return (
     <section className={styles.section}>
       <div className="container">
-        <Link to="/#projects" className={styles.back}>
+        <Link to="/proyectos" className={styles.back}>
           ← Volver a Proyectos
         </Link>
 
@@ -43,7 +43,7 @@ export default function ProjectDetailPage() {
           <Button href={project.links.github} target="_blank" variant="primary">
             Ver código en GitHub
           </Button>
-          <Button to="/#projects" variant="secondary">
+          <Button to="/proyectos" variant="secondary">
             Ver más proyectos
           </Button>
         </div>

@@ -1,0 +1,21 @@
+.section {
+  padding: 4rem 0 6rem;
+  min-height: 70vh;
+}
+
+.back {
+  color: var(--muted);
+  display: inline-block;
+  margin-bottom: 2rem;
+  transition: 0.3s;
+}
+
+.back:hover {
+  color: var(--accent);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}

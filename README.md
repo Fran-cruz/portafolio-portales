@@ -1,4 +1,4 @@
-# Portafolio — Francisco Joel Cruz Fernández
+# Portafolio - Francisco Joel Cruz Fernández
 
 Portafolio personal construido con **React + JavaScript + Vite + React
 Router**, migrado desde el sitio original en HTML/CSS
