@@ -32,17 +32,3 @@ src/
   sections/    # secciones de la Home (Hero, About, Skills, Projects, ...)
   pages/       # HomePage, ProjectDetailPage, NotFoundPage
 ```
-
-## Contenido
-
-Todos los proyectos mostrados son reales, con su tipo de contribución
-(individual/grupal) y el aporte específico de cada uno detallado en
-`src/data/projects.js` y en la página de detalle de cada proyecto
-(`/proyectos/:slug`).
-
-Ver [`PLAN.md`](./PLAN.md) para el detalle completo de decisiones de
-contenido y diseño.
-
-## Código fuente / commits
-
-https://github.com/Fran-cruz
