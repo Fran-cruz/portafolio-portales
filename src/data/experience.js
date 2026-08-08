@@ -8,10 +8,6 @@ export const experience = [
     title: "Trabajo Freelance — Upwork",
     description:
       "Desarrollo freelance de sistemas basados en Laravel: gestión de bases de datos, organización de flujos de trabajo y arquitectura backend escalable para distintos clientes a través de Upwork.",
-    link: {
-      label: "Ver perfil en Upwork",
-      href: "https://www.upwork.com/freelancers/francruz",
-    },
   },
   {
     title: "Robótica y Sistemas Embebidos",
